@@ -1,7 +1,16 @@
 import React from 'react';
 
+const Record = ({item, field, label}) => {
+  return (
+      <li className="list-group-item">
+         <span className="term">{label}</span>
+         <span>{item[field]}</span>
+      </li>
+    )
+};
+export {Record}
 const Item = (props) => {
-	const { item, img } = props
+	const { item, img, children } = props
 	if(item) { 
 		const {listItemId, itemName, cost} = item;
 		return (
@@ -11,7 +20,13 @@ const Item = (props) => {
 				</div>
 				<div className="col-md-5">
 					<h5 className="card-title">{itemName}</h5>
-					<p className="card-text">{cost}</p>
+					<ul className="list-group list-group-flush"> 
+					{
+						React.Children.map(children, (child) => {
+							return React.cloneElement(child, {item})
+						})
+					}
+					</ul>
 				</div>
 			</section>
 		);
