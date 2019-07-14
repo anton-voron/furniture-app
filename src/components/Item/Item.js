@@ -12,13 +12,13 @@ export {Record}
 const Item = (props) => {
 	const { item, img, children } = props
 	if(item) { 
-		const {listItemId, itemName, cost} = item;
+		const {listItemId, itemName} = item;
 		return (
 			<section className="row">
-				<div className="col-md-7">
+				<div className="col-md-9">
 					<img src={img(listItemId)} alt="furniture from Italia" className="card-img-top"/>
 				</div>
-				<div className="col-md-5">
+				<div className="col-md-3">
 					<h5 className="card-title">{itemName}</h5>
 					<ul className="list-group list-group-flush"> 
 					{
