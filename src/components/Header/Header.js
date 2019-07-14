@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = (props) => {
 
@@ -16,6 +17,8 @@ const Header = (props) => {
 		        <Link className="nav-link" to="/catalog">Catalog</Link>
 		      </li>
 		    </ul>
+
+		    <p className="name-title">Hello, {props.userName} </p>
 		    <form className="form-inline my-2 my-lg-0">
 		   	  <button className="btn btn-secondary my-2 my-sm-0" onClick = {props.logOut}>Log Out</button>
 		    </form>

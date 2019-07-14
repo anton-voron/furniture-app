@@ -59,7 +59,7 @@ class App extends Component {
 				  			if (isLoggedIn) { 
 				  			return ( 
 				  			<div>
-					  			<Header logOut = {this.logOut}/>
+					  			<Header logOut = {this.logOut} userName={userName}/>
 						    	<section className = "row container">
 							    	<SideSelector data = {data.getData} onIndicatorSelected = {this.onIndicatorSelected}/>
 							    	<ItemList data={data.getList(selectItem)} img={data.getItemImage} onItemSelected = {this.onItemSelected}/> 
@@ -75,7 +75,7 @@ class App extends Component {
 			    		if (isLoggedIn) {
 			    		return (
 			    			<div>
-				    			<Header logOut = {this.logOut}/>
+				    			<Header logOut = {this.logOut} userName={userName}/>
 				    			<section className = "container">
 				    				<IndexItem item = {data.getItem(item)} img={data.getItemImage} />
 				    			</section>
