@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/furniture-app/static/css/main.5377894e.chunk.css",
-    "main.js": "/furniture-app/static/js/main.001fc7d1.chunk.js",
-    "main.js.map": "/furniture-app/static/js/main.001fc7d1.chunk.js.map",
+    "main.css": "/furniture-app/static/css/main.3452f8f8.chunk.css",
+    "main.js": "/furniture-app/static/js/main.ad425ec2.chunk.js",
+    "main.js.map": "/furniture-app/static/js/main.ad425ec2.chunk.js.map",
     "runtime~main.js": "/furniture-app/static/js/runtime~main.16a4e6d5.js",
     "runtime~main.js.map": "/furniture-app/static/js/runtime~main.16a4e6d5.js.map",
-    "static/js/2.9423d116.chunk.js": "/furniture-app/static/js/2.9423d116.chunk.js",
-    "static/js/2.9423d116.chunk.js.map": "/furniture-app/static/js/2.9423d116.chunk.js.map",
+    "static/js/2.34abd07d.chunk.js": "/furniture-app/static/js/2.34abd07d.chunk.js",
+    "static/js/2.34abd07d.chunk.js.map": "/furniture-app/static/js/2.34abd07d.chunk.js.map",
     "index.html": "/furniture-app/index.html",
-    "precache-manifest.cbeeab3a422147d4590c910091a5186c.js": "/furniture-app/precache-manifest.cbeeab3a422147d4590c910091a5186c.js",
+    "precache-manifest.e7f6c5b3f34b84b11636c18c8d52a309.js": "/furniture-app/precache-manifest.e7f6c5b3f34b84b11636c18c8d52a309.js",
     "service-worker.js": "/furniture-app/service-worker.js",
-    "static/css/main.5377894e.chunk.css.map": "/furniture-app/static/css/main.5377894e.chunk.css.map"
+    "static/css/main.3452f8f8.chunk.css.map": "/furniture-app/static/css/main.3452f8f8.chunk.css.map"
   }
 }
