@@ -66,7 +66,7 @@ getItem = (id) => {
 };
 
 getItemImage = (id) => {
-   return `${this._imageBase}/starships/${id}.jpg`
+  return `https://woonhome.s3.amazonaws.com/2019/05/behzad-ghaffarian-1215343-unsplash.jpg`
 };
 
 }
